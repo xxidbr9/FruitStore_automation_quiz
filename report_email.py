@@ -35,7 +35,7 @@ def pdf_body(input_for, desc_dir):
 if __name__ == "__main__":
     user = os.getenv('USER')
     # The directory which contains all the files with data in it
-    description_directory = '/home/{}/supplier- data/descriptions/'.format(user)
+    description_directory = '/home/{}/supplier-data/descriptions/'.format(user)
 
     # Creating data in format "May 5, 2020"
     current_date = datetime.date.today().strftime("%B %d, %Y")
